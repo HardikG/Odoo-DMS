@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="web_attach_assets_common" name="web_attach_common" inherit_id="web.assets_common">
+            <xpath expr="." position="inside">
+
+            </xpath>
+        </template>
+    </data>
+</openerp>
