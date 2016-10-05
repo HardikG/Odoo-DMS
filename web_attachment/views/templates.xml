@@ -2,7 +2,7 @@
 <openerp>
     <data>
         <template id="web_attach_assets_common" name="web_attach_common" inherit_id="web.assets_common">
-            <xpath expr="." position="inside">
+            <xpath expr="." position="after">
 
             </xpath>
         </template>
