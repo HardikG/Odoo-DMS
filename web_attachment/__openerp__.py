@@ -16,7 +16,7 @@
         "web", "base"
     ],
     "data": [
-        # "views/templates.xml",
+        "views/templates.xml",
     ],
     'qweb': ["static/src/xml/form_extend.xml"],
     'installable': True,

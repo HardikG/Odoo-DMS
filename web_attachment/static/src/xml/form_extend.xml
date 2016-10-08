@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates xml:space="preserve">
     <t t-name="AttachmentButton" t-extend="Sidebar">
-        <t t-jquery="oe_sidebar" t-operation="inner">
+        <t t-jquery="t:first" t-operation="before">
             <button type="button" class="btn btn-default fa fa-paperclip">Attachments</button>
         </t>
     </t>

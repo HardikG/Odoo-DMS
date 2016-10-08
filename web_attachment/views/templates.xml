@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data>
-        <template id="web_attach_assets_common" name="web_attach_common" inherit_id="web.assets_common">
-            <xpath expr="." position="after">
-
+        <template id="web_attach_assets_backend" name="web_attach_assets_backend" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/web_attachment/static/src/js/attachment.js"></script>
             </xpath>
         </template>
     </data>
