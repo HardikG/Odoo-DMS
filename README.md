@@ -7,4 +7,3 @@
 * User can share particular document / folder to other user
 * User Friendly GUI with latest HTML / JS / CSS
 * User can share document by creating a Group ( Last but not least )
-* User can share document with another user
