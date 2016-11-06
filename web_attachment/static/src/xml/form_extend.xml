@@ -5,4 +5,12 @@
             <button type="button" class="btn btn-default fa fa-paperclip">Attachments</button>
         </t>
     </t>
+    <t t-name="AttachmentView">
+        <div class="att_header" >
+            <button type="button" class="btn btn-default fa fa-arrow-up open-file-uploader" value="Upload a File..."></button>
+        </div>
+        <div class="att_body">
+            <h3>Here all files will be displayed... You also can drag and drop files here...</h3>
+        </div>
+    </t>
 </templates>
