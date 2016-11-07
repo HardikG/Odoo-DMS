@@ -7,10 +7,19 @@
     </t>
     <t t-name="AttachmentView">
         <div class="att_header" >
-            <button type="button" class="btn btn-default fa fa-arrow-up open-file-uploader" value="Upload a File..."></button>
+            <button type="button" class="btn btn-default fa fa-arrow-up open-file-uploader" value="Upload a File...">  Upload</button>
         </div>
         <div class="att_body">
-            <h3>Here all files will be displayed... You also can drag and drop files here...</h3>
+            <div class="empty_body">
+                <center>
+                    <h3>
+                        Here all files will be displayed... <br/><br/>
+                        You also can drag and drop files here...<br/><br/>
+                        You can do it for multiple files...<br/><br/>
+                        You can also do it by clicking here...
+                    </h3>
+                </center>
+            </div>
         </div>
     </t>
 </templates>

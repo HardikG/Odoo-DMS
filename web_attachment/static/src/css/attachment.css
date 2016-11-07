@@ -1,0 +1,17 @@
+.modal-body {
+    overflow: inherit !important;
+    padding: 5px;
+}
+.att_header .open-file-uploader {
+    font-weight: bold;
+}
+.att_body {
+    min-height: 200px;
+}
+.dragover {
+    background-color: rgb(245,245,245);
+    border: dashed 3px;
+}
+.att_body .empty_body {
+    color: rgb(200,200,200)
+}
