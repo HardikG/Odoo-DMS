@@ -33,10 +33,24 @@ odoo.define('web.attachment', function (require) {
             });
         },
         open_file_uploader: function(){
-            alert("Nailed It!!!!!");
+            var self=this;
+            var input = document.createElement('input');
+            input.setAttribute('type', 'file');
+            input.setAttribute('multiple', true);
+            input.addEventListener('change', function(e) {
+                var files;
+                if(e.dataTransfer) {
+                    files = e.dataTransfer.files;
+                } else if(e.target) {
+                    files = e.target.files;
+                }
+                self.upload_file(files);
+            });
+            input.click();
         },
         upload_file: function(e){
             console.log("eeeee",e);
+            alert("nailed itttt");
         },
         makeDroppable: function(element, callback) {
 
