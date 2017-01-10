@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/HardikG/Odoo-DMS.svg?branch=master)](https://travis-ci.org/HardikG/Odoo-DMS)
+
+
 # Odoo-DMS
 
 ### Feature List
