@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/HardikG/Odoo-DMS.svg?branch=master)](https://travis-ci.org/HardikG/Odoo-DMS)
 [![codecov](https://codecov.io/gh/HardikG/Odoo-DMS/branch/master/graph/badge.svg)](https://codecov.io/gh/HardikG/Odoo-DMS)
-
+[![Coverage Status](https://coveralls.io/repos/github/HardikG/Odoo-DMS/badge.svg?branch=master)](https://coveralls.io/github/HardikG/Odoo-DMS?branch=master)
 
 # Odoo-DMS
 
